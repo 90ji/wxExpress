@@ -1,5 +1,7 @@
 package com.qinxiaozhou.util.wxExpress.model;
 
+import com.qinxiaozhou.util.wxExpress.util.Constant;
+
 import java.util.Date;
 
 /**

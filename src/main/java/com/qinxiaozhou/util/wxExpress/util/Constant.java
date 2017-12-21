@@ -1,13 +1,15 @@
-package com.qinxiaozhou.util.wxExpress.model;
+package com.qinxiaozhou.util.wxExpress.util;
+
+import com.qinxiaozhou.util.wxExpress.model.UserInfo;
 
 import java.util.ArrayList;
 
 /**
- * @Author MoonLion
- * @Date Create in 2017/12/20 0020
- * @Description
+ * Create by qxz on 2017/12/21
+ * Description:
  */
 public class Constant {
+
     public static ArrayList<UserInfo> userList = null;
 
     /***
@@ -22,4 +24,5 @@ public class Constant {
         userList.add(new UserInfo("贾岩"  , "17628097027","7027"));
         userList.add(new UserInfo("秦晓洲", "18512891248","1248"));
     }
+    public static final String DefaultPhone = "18512891248";
 }
