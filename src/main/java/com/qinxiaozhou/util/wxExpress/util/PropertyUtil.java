@@ -19,9 +19,9 @@ public class PropertyUtil {
     static{
         try {
             pro = new Properties();
-            InputStream in = ClassLoader.class.getResourceAsStream(proFileName);
+            InputStream in = PropertyUtil.class.getResourceAsStream(proFileName);
 //            pro.load(in,"UTF-8");
-            pro.load(new InputStreamReader(ClassLoader.class.getResourceAsStream(proFileName), "UTF-8"));
+            pro.load(new InputStreamReader(in, "UTF-8"));
             in.close();
         } catch (IOException e) {
             e.printStackTrace();
